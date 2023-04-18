@@ -13,7 +13,8 @@ type Event struct {
 	Place        string
 	TypeOfTicket bool
 	Price        int
-	Quota        int
+	GoalQuota    int
+	CurrentQuota int
 	ImageURL     string
 	Description  string
 	UserID       uint
