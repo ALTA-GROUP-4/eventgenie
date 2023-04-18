@@ -2,7 +2,8 @@ package database
 
 import (
 	eventrepo "github.com/mujahxd/eventgenie/app/features/event/repository"
-	userrepo "github.com/mujahxd/eventgenie/app/features/user/repository"
+	userrepo "github.com/mujahxd/eventgenie/app/features/user"
+
 	"gorm.io/gorm"
 )
 
